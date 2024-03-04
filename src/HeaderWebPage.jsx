@@ -18,7 +18,7 @@ export function HeaderWebPage() {
         
         <div className="collapse navbar-collapse" id="navbar-toggler">
           <a className="navbar-brand" href="#">
-            <img src="/code-slash.svg" alt="logo pagina web" height={30} />
+            <img src="./code-slash.svg" alt="logo pagina web" height={30} />
             
           </a>
           

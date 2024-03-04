@@ -40,13 +40,15 @@
     align-items: center;
 }
 
-.hero-image{
-    max-width: 500px;
-    max-height: 500px;
+.hero-image {
+    height: auto;
+    width: 100%; /* Asegura responsividad */
+    max-width: 30rem; /* Limita el tamaño en pantallas grandes */
 }
 
 .user-image{
-    width: 300px;
+    width: 310px;
+    border: 10px solid black;
 
 }
 .container-hero-2 h2{

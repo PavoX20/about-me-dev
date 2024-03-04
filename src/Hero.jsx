@@ -2,11 +2,11 @@ export function Hero() {
   return (
   <section className="hero">
     <div className="container-hero container-fluid d-flex bg-light flex-column justify-content-center">
-    <img className="user-image img-fluid mx-auto rounded-circle" src="/me.JPG"></img>
+    <img className="user-image img-fluid mx-auto rounded-circle" src="./me.JPG"></img>
         <h1 className=" d-flex mt-5">Hello, I am Pablo Sarzosa</h1>
         <h2 className="d-flex mb-5">Software developer trainee. Learning React, Flutter and Angular. DevOps interested.</h2>
 
-        <img className="hero-image img-fluid mx-auto mt-5" src="/hero-me.png">
+        <img className="img-fluid mx-auto mt-5 hero-image " src="./hero-me.png">
         </img>
         
     </div>

@@ -7,7 +7,9 @@ import "./App.css";
 export function AppRoutes() {
   return (
     <Router>
-      <div>
+      <div className=' bg-light'>
+        
+            <h4 >Web page in development...</h4>
         <HeaderWebPage />
         <Routes>
           <Route path="/" element={<Hero />} />
